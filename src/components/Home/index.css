@@ -1,0 +1,92 @@
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding: 60px 40px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto 0 auto; 
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 32px;
+}
+
+.home-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.find-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.home-image {
+  width: 520px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 16px;
+    margin-top: 24px; 
+  }
+
+  .text-section {
+    width: 100%;
+    margin-bottom: 24px;
+    padding-right: 0;
+  }
+
+  .home-heading {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .home-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .find-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .home-image {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 16px;
+    align-self: center;
+  }
+}
