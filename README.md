@@ -22,12 +22,14 @@ It features **protected routes with JWT-based mock authentication** and a **resp
 ### 💼 Jobs Listing Page
 ![Jobs Page](https://res.cloudinary.com/dcy78sibl/image/upload/v1760718288/Screenshot_2025-10-17_215151_g96dwu.png)
 
+### 🔍 Search & Filter Functionality
+![Search and Filter](https://res.cloudinary.com/dcy78sibl/image/upload/v1760718669/Screenshot_2025-10-17_215236_t5ip3l.png)
+
 ### 📄 Job Details Page
 ![Job Details](https://res.cloudinary.com/dcy78sibl/image/upload/v1760718294/Screenshot_2025-10-17_215348_cstk2x.png)
 
 ### 👥 Similar Jobs Section
 ![Similar Jobs](https://res.cloudinary.com/dcy78sibl/image/upload/v1760718300/Screenshot_2025-10-17_215403_f6dtwl.png)
-
 
 ## 👤 Demo Credentials
 - **Username:** rahul  
